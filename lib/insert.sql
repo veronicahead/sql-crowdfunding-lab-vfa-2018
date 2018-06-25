@@ -1,0 +1,35 @@
+INSERT INTO users (id, name, age) VALUES (1, 'james', 20), (2, 'james', 21), (3, 'james', 21), (4, 'james', 22), (5, 'james', 23), (6, 'james', 24), (7, 'james', 25), (8, 'james', 26), (9, 'james', 27), (10, 'james', 28), (11, 'james', 29), (12, 'james', 30), (13, 'james', 31), (14, 'james', 32), (15, 'james', 33), (16, 'james', 34), (17, 'james', 35), (18, 'james', 36), (19, 'james', 37), (20, 'james', 38);
+
+INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (1, 'help james', 100.00, 'james', '12-21-2012', '01-01-2013'), (2, 'help james survive end of world', 100.00,'james','12-21-2012', '01-01-2013'), (3, 'help james jump higher', 100.00, 'james', '12-21-2012', '01-01-2013'), (4, 'help james run', 100.00, 'james', '12-21-2012', '01-01-2013'), (5, 'help james buy a yogurt', 100.00, 'james', '12-21-2012', '01-01-2013'), (6, 'help james smell the flowers', 100.00, 'james', '12-21-2012', '01-01-2013'), (7, 'help james at night', 100.00, 'james', '12-21-2012', '01-01-2013'), (8, 'help james carry groceries', 100.00, 'james', '12-21-2012', '01-01-2013'), (9, 'help james do yoga', 100.00, 'james', '12-21-2012', '01-01-2013'), (10, 'help james take a really good look at himself in the mirror', 100.00, 'james', '12-21-2012', '01-01-2013');
+
+INSERT INTO pledges (id, amount, user_id, project_id) VALUES
+  (1, 25.00, 2,3),
+  (2, 25.00, 5,6),
+  (3, 25.00, 3,8),
+  (4, 25.00, 9,10),
+  (5, 25.00, 20,10),
+  (6, 25.00, 18,9),
+  (7, 25.00, 17,9),
+  (8, 25.00, 8,5),
+  (9, 25.00, 2,5),
+  (10, 25.00, 3,5),
+  (11, 25.00, 5,5),
+  (12, 25.00, 7,10),
+  (13, 25.00, 11,10),
+  (14, 25.00, 10,3),
+  (15, 25.00, 12,3),
+  (16, 25.00, 15,3),
+  (17, 25.00, 7,6),
+  (18, 25.00, 6,7),
+  (19, 25.00, 17,7),
+  (20, 25.00, 1,7),
+  (21, 25.00, 7,7),
+  (22, 25.00, 6,6),
+  (23, 25.00, 3,6),
+  (24, 25.00, 1,9),
+  (25, 25.00, 9,9),
+  (26, 25.00, 1,5),
+  (27, 25.00, 2,4),
+  (28, 25.00, 3,4),
+  (29, 25.00, 4,4),
+  (30, 25.00, 4,7);
