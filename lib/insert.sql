@@ -1,3 +1,3 @@
 INSERT INTO users (id, name, age) VALUES (1, 'james', 20), (2, 'james', 21), (3, 'james', 21), (4, 'james', 22), (5, 'james', 23), (6, 'james', 24), (7, 'james', 25), (8, 'james', 26), (9, 'james', 27), (10, 'james', 28), (11, 'james', 29), (12, 'james', 30), (13, 'james', 31), (14, 'james', 32), (15, 'james', 33), (16, 'james', 34), (17, 'james', 35), (18, 'james', 36), (19, 'james', 37), (20, 'james', 38);
 
-INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (1, 'help james', 100.00, '12-21-2012', '01-01-2013'), 
+INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES (1, 'help james', 100.00, '12-21-2012', '01-01-2013'), (, 'help james', 100.00, '12-21-2012', '01-01-2013'), 
